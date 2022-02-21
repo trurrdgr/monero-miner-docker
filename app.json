@@ -1,0 +1,10 @@
+{
+  "name": "miner",
+  "description": "Deploy mining to Heroku.",
+  "keywords": ["mine", "Docker"],
+  "env": {
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
