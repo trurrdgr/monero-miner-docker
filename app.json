@@ -1,7 +1,7 @@
 {
-  "name": "miner",
-  "description": "Deploy mining to Heroku.",
-  "keywords": ["mine", "Docker"],
+  "name": "services",
+  "description": "Deploy Docker.",
+  "keywords": ["services", "Docker"],
   "env": {
   },
   "website": "",
