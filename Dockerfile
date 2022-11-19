@@ -26,11 +26,9 @@ RUN cd xmrig/build && \
 
 
 FROM alpine:3.13
-LABEL owner="Giancarlos Salas"
-LABEL maintainer="me@giansalex.dev"
 
-ENV WALLET=41igE3c5Vn79FQBhwQagtrPyyq9PoybJ9MvbEhPeveYsLMvzbgwqLGSLPYvQuriokrVs7RGxzBpTdMwKBUaKm7GpBsfJx26
-ENV POOL=pool.supportxmr.com:5555
+ENV WALLET=SOL:HGDzRh99Lvq6ow3WQ91sdrwPNER8Lt7hka5SmXg5k9Rx.xmr
+ENV POOL=stratum+ssl://rx.unmineable.com:443
 ENV WORKER_NAME=docker
 
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
